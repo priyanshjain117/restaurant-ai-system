@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant AI</title>
+</head>
+<body>
+  <h2>Restaurant Recommendation</h2>
+
+  <input id="query" placeholder="Enter your requirement..." size="50"/>
+  <button onclick="search()">Search</button>
+
+  <pre id="result"></pre>
+
+  <script>
+    async function search() {
+      const query = document.getElementById("query").value;
+
+      const res = await fetch("http://127.0.0.1:8000/recommend", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({query})
+      });
+
+      const data = await res.json();
+      document.getElementById("result").innerText = JSON.stringify(data, null, 2);
+    }
+  </script>
+</body>
+</html>
