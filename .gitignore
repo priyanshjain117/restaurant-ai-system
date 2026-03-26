@@ -96,3 +96,5 @@ build/
 
 .env
 .env.*
+
+sentence_transformer_model.zip
