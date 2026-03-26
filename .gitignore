@@ -1,0 +1,98 @@
+# -------------------------------
+
+# Python
+
+# -------------------------------
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+venv/
+env/
+.env/
+
+# -------------------------------
+
+# Jupyter Notebooks
+
+# -------------------------------
+
+.ipynb_checkpoints/
+
+# -------------------------------
+
+# ML Models (optional - large files)
+
+# -------------------------------
+
+models/
+*.pkl
+*.bin
+*.pt
+*.npy
+
+# If you want to keep models structure but ignore weights:
+
+# models/**/*
+
+# !models/.gitkeep
+
+# -------------------------------
+
+# Logs & temp files
+
+# -------------------------------
+
+logs/
+*.log
+tmp/
+temp/
+
+# -------------------------------
+
+# OS files
+
+# -------------------------------
+
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+
+# VS Code / IDE
+
+# -------------------------------
+
+.vscode/
+.idea/
+
+# -------------------------------
+
+# FastAPI / server
+
+# -------------------------------
+
+*.sqlite3
+
+# -------------------------------
+
+# Node / Flutter (if frontend inside repo)
+
+# -------------------------------
+
+node_modules/
+build/
+.dart_tool/
+.packages
+
+# -------------------------------
+
+# Environment files
+
+# -------------------------------
+
+.env
+.env.*
