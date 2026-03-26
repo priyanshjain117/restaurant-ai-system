@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Green Veg Palace",
+    "location": "Jaipur",
+    "is_veg": true,
+    "reviews": [
+      "Amazing food and great ambience",
+      "Service was slow but food was tasty",
+      "Nice place for family dinner"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Spice Garden",
+    "location": "Jaipur",
+    "is_veg": false,
+    "reviews": [
+      "Delicious non veg food",
+      "Ambience was average",
+      "Staff was rude"
+    ]
+  }
+]
